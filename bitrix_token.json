@@ -1,0 +1,13 @@
+{
+  "access_token": "06b397680079562d0079481f00000001403807465e01d397807f2803c5c10ef162cdf3",
+  "expires": 1754772230,
+  "expires_in": 3600,
+  "scope": "app",
+  "domain": "https://duyphong.bitrix24.vn",
+  "server_endpoint": "https://oauth.bitrix.info/rest/",
+  "status": "L",
+  "client_endpoint": "https://duyphong.bitrix24.vn/rest/",
+  "member_id": "6a19875b882f8490addc63f40e983194",
+  "user_id": 1,
+  "refresh_token": "f631bf680079562d0079481f000000014038072b05b5ebbc11d1bd748d2e8dcbf983e2"
+}
