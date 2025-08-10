@@ -49,6 +49,15 @@ REDIS_PORT=6379 # Port for reddis, default: 6379
 REDIS_HOST=localhost
 ```
 
+Setup Redis
+- Install and setup Docker: https://www.docker.com/get-started/
+- Run in bash to start Redis in port default 6379
+```
+docker load -i redis-8.0-M04-alpine.tar
+docker build -t redis:8.0-M04-alpine .
+docker compose up
+```
+
 ## Compile and run the project
 
 ```bash
