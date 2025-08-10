@@ -31,6 +31,24 @@
 $ npm install
 ```
 
+Create file .env int /src like:
+```
+# ========= BITRIX24 CONFIG =========
+BITRIX_CLIENT_ID=your_client_id_bitrix24
+BITRIX_CLIENT_SECRET=your_client_secret_code_bitrix24
+BITRIX_DOMAIN=https://yourdomain.bitrix24.vn
+
+BITRIX_WEBHOOK_DOMAIN=https://yourdomain.bitrix24.vn/rest/1/xxxxxx/
+WEBHOOK_HANDLER_URL=your_url_expose_your_backend 
+
+# ========= APP CONFIG =========
+PORT=8080 # Port backend
+FE-URL= http://localhost:5174 # Url for frontend
+
+REDIS_PORT=6379 # Port for reddis, default: 6379
+REDIS_HOST=localhost
+```
+
 ## Compile and run the project
 
 ```bash
