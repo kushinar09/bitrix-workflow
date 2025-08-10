@@ -27,6 +27,13 @@
 
 ## Project setup
 
+Setup Webhook in Bitrix24:
+- https://helpdesk.bitrix24.com/open/21133100/
+- You need to create an outbound webhook to handle events in your Bitrix24 site.
+- After creating the webhook, you will receive a webhook URL (e.g., `https://yourdomain.bitrix24.vn/rest/1/xxxxxx/`). Use this URL in your `.env` file to complete the environment setup.
+
+Install packages in project
+
 ```bash
 $ npm install
 ```
